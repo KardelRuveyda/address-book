@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Adres Defteri</title>
+        <link rel="stylesheet" href="style/style.css">
+        <script src="https://www.gstatic.com/firebasejs/3.1.0/firebase.js"></script>
+
+    </head>
+
+<body>
+      
+<div class="container">
+    <div class="title">
+        <h1>Adres Defteri</h1>
+    </div>
+    <div class="quickadd">
+        <button id="QuickAdd">
+            +Ekle
+        </button>
+    </div>
+    <div class="quickAddForm">
+        <label for="fullname">Ad Soyad</label>
+        <input type="text" id="fullname" class="formFields">
+        <label for="phone">Telefon</label>
+        <input type="text" id="phone" class="formFields">
+        <label for="address">Adres</label>
+        <input type="text" id="address" class="formFields">
+        <label for="city">Şehir</label>
+        <input type="text" id="city" class="formFields">
+        <label for="email">E-mail</label>
+        <input type="text" id="email" class="formFields">
+        <br><br>
+        <!--Eklemek İçin BUton-->
+        <button id="Add">Şimdi Ekle</button>
+        <button id="Edit">Şimdi Düzenle</button>
+        <!--İptel Etmek için Buton-->
+        <button id="Cancel">İptal</button>
+
+    </div>
+
+    <div id="address-book" class="addbook"></div>
+</div>
+
+<script src="js/app.js"></script>
+
+
+<!--Firebase-->
+
+
+
+
+</body>  
+</html>
