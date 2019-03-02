@@ -169,9 +169,7 @@ var AddressBook = AddressBook || {};
         });
 
     };
-
-
-    //
+ //
 
 
     _this.generateListTemplate = function (obj, id) {
